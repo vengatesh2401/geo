@@ -310,11 +310,12 @@ def get_supported_locations():
 
 @app.get("/")
 def root():
-    return {"message": "Geo-Keyword Finder API is running! No API keys required."}
+    return {"message": "Geo-Keyword Finder "}
 
 if __name__ == "__main__":
     import uvicorn
     print("🚀 Starting Geo-Keyword Finder Backend...")
     print("📊 No API Keys Required - Using Mock Data")
     print("🌐 Server will run on: http://localhost:8000")
+
     uvicorn.run(app, host="0.0.0.0", port=8000)
