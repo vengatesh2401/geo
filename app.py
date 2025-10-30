@@ -36,7 +36,7 @@ st.markdown("""
 
 # Header
 st.markdown('<div class="main-title">📍 Geo-Keyword Finder</div>', unsafe_allow_html=True)
-st.markdown('<div style="text-align: center; margin-bottom: 2rem;"><span class="free-badge">🚀 100% FREE - No API Keys Required</span></div>', unsafe_allow_html=True)
+st.markdown('<div style="text-align: center; margin-bottom: 2rem;"><span class="free-badge"></span></div>', unsafe_allow_html=True)
 
 # Check if backend is running
 try:
@@ -178,4 +178,3 @@ else:
 
 # Footer
 st.markdown("---")
-st.markdown("**Geo-Keyword Finder** • 100% Free • No API Keys • Built with FastAPI + Streamlit")
